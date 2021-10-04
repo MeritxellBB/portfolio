@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul img {
+    width: 20px;
+}
+
+footer p {
+    font-size: 12px;
+}

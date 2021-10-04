@@ -12,21 +12,21 @@
         <div class="logo">MB</div>
         <nav>
             <ul class="menu">
-                <li>Knowledge</li>
-                <li>About me</li>
-                <li>Contact</li>
+                <li>Conocimientos</li>
+                <li>Sobre mi</li>
+                <li>¡Contáctame!</li>
             </ul>
         </nav>
     </header>
+    <hr>
     <main>
         <section class="welcome">
             <img src="/assets/images/photo_profile.jpg" alt="MyPhoto">
             <h1>¡Hola! Soy Meritxell, futura desarrolladora Full Stack que cambio el turismo por el maravilloso 
                 mundo de la programación.</h1>
-        <hr>
         </section>
-        <section>
-            <div class="title">Knowledge</div>
+        <section class="knowledge">
+            <div class="title">Conocimientos</div>
             <ul class="knowledge__container">
                 <li class="knowledge__item">
                     <img src="/assets/images/css.svg" alt="CSS">
@@ -46,16 +46,36 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <div class="title">About me</div>
+        <section class="aboutme">
+            <div class="title">Sobre mi</div>
             <p>En mi tiempo libre me encanta patinar. No podría vivir sin música. Viajar me hace increiblemente
                 feliz. El fútbol me vuelve loca y siempre que puedo, ¡vuelvo a Soria!
             </p>
             <div class="more-videoWrapper">
-                <iframe width="100%" height="100%" src="https://www.youtube.com/watch?v=iVQro9di4hY">
-                </iframe>
+                <video controls src="/assets/video/soria.mp4"></video>
             </div>
         </section>
+        <section class="contact">
+            <div class="title">¡Contáctame!</div>
+            <form>
+                <label for="first_name">Nombre</label>
+                <input name="first_name" placeholder="Nombre" type="text">
+                <label for="last_name">Apellidos</label>
+                <input name="last_name" type="text" placeholder="Apellidos">
+                <label for="message">Mensaje</label>
+                <textarea name="message" placeholder="Mensaje" rows="6"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
     </main>
+    <hr>
+    <footer>      
+        <p>© Meritxell Bendicho 2021</p>
+        <ul>
+            <li><a href="#"><img src="./assets/images/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="./assets/images/linkedin.png" alt="LinkedIn"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
