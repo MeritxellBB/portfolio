@@ -1,0 +1,17 @@
+.knowledge__container {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.knowledge__item {
+    display: flex;
+    margin-top: 30px;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.knowledge__item img {
+    width: 55px;
+}
